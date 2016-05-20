@@ -11,9 +11,9 @@
 
     <name>dl4j-caffe</name>
 
-
     <properties>
         <graphchi.version>0.2.2</graphchi.version>
+        <scala.binary.version>2.10</scala.binary.version>
     </properties>
 
     <dependencies>
@@ -51,7 +51,7 @@
 
         <dependency>
             <groupId>org.graphchi</groupId>
-            <artifactId>graphchi-java_2.11</artifactId>
+            <artifactId>graphchi-java_${scala.binary.version}</artifactId>
             <version>${graphchi.version}</version>
         </dependency>
     </dependencies>
